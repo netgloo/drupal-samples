@@ -1,0 +1,11 @@
+name: Address
+description: Defines a simple address field type.
+
+# The type must be 'module' and the package must be 'Field types'
+type: module
+package: Field types
+core: 8.x
+
+# The list of dependencies must contains the 'field' value
+dependencies:
+  - field
